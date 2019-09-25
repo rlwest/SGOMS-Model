@@ -11,7 +11,6 @@ class Sgoms:
             if key.char == 'd':
                 return False # Stop listener (- or listener.stop)
             if key.char == 'w':
-                print(5555555555555555555)
                 self.step()
             else:
                 print('that key has no function')
@@ -24,7 +23,6 @@ class Sgoms:
         print('program terminated')
 
     def step(self):
-        print('step')
         for pu in self.planning_units:
             print ('planning unit = ', end=' ')
             print (pu)
