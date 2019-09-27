@@ -3,7 +3,7 @@ from sgoms import *
 mySgoms = Sgoms()
 
 mySgoms.planning_units = {
-  "pu1": ['ut1', 'ut2', 'ut3', 'ut4'],
+  "pu1": ['serve', 'ut2', 'ut3', 'ut4'],
   "pu2": ['ut2', 'ut3', 'ut4', 'ut3','ut4']
 }
 
