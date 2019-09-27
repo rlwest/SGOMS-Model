@@ -8,7 +8,9 @@ mySgoms.planning_units = {
 }
 
 mySgoms.unit_tasks = {
-  "ut1": ['m1', 'm2', 'm3'],
+  "ut1": ['get glass',
+          'start pour',
+          'stop pour'],
   "ut2": ['m2', 'm4', 'm4', 'm1'],
   "ut3": ['m3', 'm4', 'm1', 'm1'],
   "ut4": ['m4', 'm1', 'm2', 'm3']

@@ -12,6 +12,8 @@ class Sgoms:
                 return False # Stop listener (- or listener.stop)
             if key.char == 'w':
                 self.step()
+                x=input('something')
+                print(x)
             else:
                 print('that key has no function')
         except AttributeError:
